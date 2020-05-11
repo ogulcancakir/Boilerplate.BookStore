@@ -10,8 +10,9 @@ namespace Ogulcan.BookStore.EntityFrameworkCore
     public class BookStoreDbContext : AbpZeroDbContext<Tenant, Role, User, BookStoreDbContext>
     {
         /* Define a DbSet for each entity of the application */
-        DbSet<Book> Books = new 
-        
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Author> Authors { get; set; }
+
         public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options)
             : base(options)
         {
