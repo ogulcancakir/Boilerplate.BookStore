@@ -44,6 +44,12 @@
                     </div>
                 </div>
                 <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="email">@L("Address")</label>
+                    <div class="col-md-9">
+                        <input id="Address" type="text" class="form-control" name="Address" value="@Model.User.Address" required maxlength="100">
+                    </div>
+                </div>
+                <div class="form-group row">
                     <label class="col-md-3 col-form-label" for="IsActive">@L("IsActive")</label>
                     <div class="col-md-9">
                         <input id="IsActive" type="checkbox" name="IsActive" value="true" @(Model.User.IsActive ? "checked" : "") />

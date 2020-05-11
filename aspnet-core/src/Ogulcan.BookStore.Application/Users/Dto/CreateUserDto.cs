@@ -29,6 +29,10 @@ namespace Ogulcan.BookStore.Users.Dto
 
         public bool IsActive { get; set; }
 
+        [Required]
+        [StringLength(1000)]
+        public string Address { get; set; }
+
         public string[] RoleNames { get; set; }
 
         [Required]

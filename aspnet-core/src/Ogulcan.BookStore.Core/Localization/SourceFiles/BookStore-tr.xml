@@ -16,6 +16,7 @@
     <text name="TenancyName" value="Müşteri adı" />
     <text name="UserNameOrEmail" value="Kullanıcı adı ya da e-posta" />
     <text name="Password" value="Şifre" />
+    <text name="ConfirmPassword" value="Şifreyi Onayla" />
     <text name="RememberMe" value="Beni hatırla" />
     <text name="LogIn" value="Giriş" />
     <text name="LoginFailed" value="Giriş başarısız!" />
@@ -87,5 +88,7 @@
     <text name="RoleDeleteWarningMessage">{0} rolü silinecek ve atanmış kullanıcılardan kaldırılacaktır.</text>
     <text name="TenantDeleteWarningMessage">{0} müşterisi silinecektir.</text>
     <text name="SearchWithThreeDot">Ara...</text>
+
+    <text name="Address">Adres</text>
   </texts>
 </localizationDictionary>

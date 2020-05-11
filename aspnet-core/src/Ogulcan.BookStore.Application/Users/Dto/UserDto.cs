@@ -31,6 +31,10 @@ namespace Ogulcan.BookStore.Users.Dto
 
         public string FullName { get; set; }
 
+        [Required]
+        [StringLength(1000)]
+        public string Address { get; set; }
+
         public DateTime? LastLoginTime { get; set; }
 
         public DateTime CreationTime { get; set; }
