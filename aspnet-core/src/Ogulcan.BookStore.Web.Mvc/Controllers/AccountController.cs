@@ -81,7 +81,6 @@ namespace Ogulcan.BookStore.Web.Controllers
             {
                 returnUrl = GetAppHomeUrl();
             }
-
             return View(new LoginFormViewModel
             {
                 ReturnUrl = returnUrl,
