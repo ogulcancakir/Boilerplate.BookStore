@@ -2,6 +2,8 @@
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Ogulcan.BookStore.Authorization;
+using Ogulcan.BookStore.Books;
+using Ogulcan.BookStore.Books.Dto;
 
 namespace Ogulcan.BookStore
 {
@@ -13,6 +15,13 @@ namespace Ogulcan.BookStore
         public override void PreInitialize()
         {
             Configuration.Authorization.Providers.Add<BookStoreAuthorizationProvider>();
+            Configuration.Modules.AbpAutoMapper().Configurators.Add(
+                config =>
+                {
+                    config.CreateMap<CreateBookDto, Book>();
+
+
+                });
         }
 
         public override void Initialize()

@@ -30,6 +30,7 @@ namespace Ogulcan.BookStore.Books
         {
             this.CreationTime = DateTime.Now;
             this.IsActive = true;
+            
         }
 
     }

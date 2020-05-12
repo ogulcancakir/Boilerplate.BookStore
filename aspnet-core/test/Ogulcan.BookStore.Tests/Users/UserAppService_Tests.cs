@@ -39,7 +39,8 @@ namespace Ogulcan.BookStore.Tests.Users
                     Name = "John",
                     Surname = "Nash",
                     Password = "123qwe",
-                    UserName = "john.nash"
+                    UserName = "john.nash",
+                    Address = "Address details"
                 });
 
             await UsingDbContextAsync(async context =>
