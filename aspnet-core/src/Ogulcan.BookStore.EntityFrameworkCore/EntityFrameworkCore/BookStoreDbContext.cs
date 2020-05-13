@@ -4,6 +4,7 @@ using Ogulcan.BookStore.Authorization.Roles;
 using Ogulcan.BookStore.Authorization.Users;
 using Ogulcan.BookStore.MultiTenancy;
 using Ogulcan.BookStore.Books;
+using Ogulcan.BookStore.Authors;
 
 namespace Ogulcan.BookStore.EntityFrameworkCore
 {

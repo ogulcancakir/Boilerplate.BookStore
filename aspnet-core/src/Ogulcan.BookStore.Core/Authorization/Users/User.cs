@@ -9,8 +9,9 @@ namespace Ogulcan.BookStore.Authorization.Users
     public class User : AbpUser<User>
     {
         public const string DefaultPassword = "123qwe";
+        public const int AddressMaxLength = 1000;
 
-        [MaxLength(1000)]
+        [MaxLength(AddressMaxLength)]
         public string Address { get; set; }
 
         public static string CreateRandomPassword()

@@ -20,13 +20,15 @@ namespace Ogulcan.BookStore.Tests.Books
         [Fact]
         public async Task CreateBook_Test()
         {
-            await _bookAppService.CreateBook(new BookStore.Books.Dto.CreateBookDto
+            Task t = _bookAppService.CreateBook(new BookStore.Books.Dto.CreateBookDto
             {
                 AuthorId = null,
                 Description = "Book Description",
                 Title = "Book Title",
                 Published = DateTime.Now
+                
             });
+
 
             await UsingDbContextAsync(async context =>
             {

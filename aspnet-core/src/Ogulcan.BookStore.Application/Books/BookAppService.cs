@@ -29,7 +29,7 @@ namespace Ogulcan.BookStore.Books
             var books = await _bookRepository
                 .GetAll()
                 .Where(x=>x.TenantId == input.TenantId)
-                .WhereIf(input.AuthorId.HasValue,x => x.Author.Id == input.AuthorId.Value)
+               // .WhereIf(input.AuthorId.HasValue,x => x.Author.Id == input.AuthorId.Value)
                 .ToListAsync();
 
             return new ListResultDto<BookListDto>(
