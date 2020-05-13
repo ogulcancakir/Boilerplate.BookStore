@@ -10,8 +10,8 @@ using Ogulcan.BookStore.EntityFrameworkCore;
 namespace Ogulcan.BookStore.Migrations
 {
     [DbContext(typeof(BookStoreDbContext))]
-    [Migration("20200511194006_Book_Author_entities_created")]
-    partial class Book_Author_entities_created
+    [Migration("20200513194749_some changes")]
+    partial class somechanges
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1518,11 +1518,12 @@ namespace Ogulcan.BookStore.Migrations
                     b.ToTable("AbpUsers");
                 });
 
-            modelBuilder.Entity("Ogulcan.BookStore.Books.Author", b =>
+            modelBuilder.Entity("Ogulcan.BookStore.Authors.Author", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("AuthorName")
                         .HasColumnType("nvarchar(256)")
@@ -1532,7 +1533,7 @@ namespace Ogulcan.BookStore.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasMaxLength(65536);
 
-                    b.Property<DateTime>("BornIn")
+                    b.Property<DateTime?>("BornIn")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("CreationTime")
@@ -1570,8 +1571,8 @@ namespace Ogulcan.BookStore.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("AuthorId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("AuthorId")
+                        .HasColumnType("int");
 
                     b.Property<byte[]>("BookImage")
                         .HasColumnType("varbinary(max)");
@@ -1884,7 +1885,7 @@ namespace Ogulcan.BookStore.Migrations
 
             modelBuilder.Entity("Ogulcan.BookStore.Books.Book", b =>
                 {
-                    b.HasOne("Ogulcan.BookStore.Books.Author", "Author")
+                    b.HasOne("Ogulcan.BookStore.Authors.Author", "Author")
                         .WithMany()
                         .HasForeignKey("AuthorId");
                 });

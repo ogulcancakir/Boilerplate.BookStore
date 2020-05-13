@@ -1,0 +1,612 @@
+DEBUG 2020-05-13 23:17:46,560 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-13 23:17:46,760 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-13 23:17:46,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.Web.Host.Startup.BookStoreWebHostModule, Ogulcan.BookStore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreWebCoreModule, Ogulcan.BookStore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreApplicationModule, Ogulcan.BookStore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreCoreModule, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkModule, Ogulcan.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:46,787 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-13 23:17:46,949 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:17:46,949 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:17:46,949 [1    ] o.Configuration.LanguageManagementConfig - Converted BookStore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:17:46,949 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:17:47,329 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Ogulcan.BookStore.EntityFrameworkCore.BookStoreDbContext, Ogulcan.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:17:48,107 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-13 23:17:48,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-13 23:17:48,199 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-13 23:17:48,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookStore
+DEBUG 2020-05-13 23:17:48,231 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-13 23:17:48,420 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-13 23:17:48,518 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Ogulcan.BookStore.MultiTenancy.Tenant, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Ogulcan.BookStore.Authorization.Users.User, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-13 23:17:48,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-05-13 23:17:48,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-13 23:17:48,562 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Users.Dto.CreateUserDto
+DEBUG 2020-05-13 23:17:48,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Users.Dto.UserDto
+DEBUG 2020-05-13 23:17:48,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-13 23:17:48,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-13 23:17:48,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Roles.Dto.PermissionDto
+DEBUG 2020-05-13 23:17:48,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-13 23:17:48,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-13 23:17:48,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Books.Dto.BookListDto
+DEBUG 2020-05-13 23:17:48,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Books.Dto.CreateBookDto
+DEBUG 2020-05-13 23:17:48,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Authors.AuthorDto
+WARN  2020-05-13 23:18:08,537 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Context()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobs(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobs.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Context()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobs(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobs.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2020-05-13 23:18:46,164 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-13 23:18:46,209 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-13 23:18:46,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.Web.Host.Startup.BookStoreWebHostModule, Ogulcan.BookStore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreWebCoreModule, Ogulcan.BookStore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreApplicationModule, Ogulcan.BookStore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreCoreModule, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkModule, Ogulcan.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:46,226 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-13 23:18:46,286 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:18:46,286 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:18:46,286 [1    ] o.Configuration.LanguageManagementConfig - Converted BookStore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:18:46,286 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:18:46,562 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Ogulcan.BookStore.EntityFrameworkCore.BookStoreDbContext, Ogulcan.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:18:47,215 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-13 23:18:47,262 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-13 23:18:47,301 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-13 23:18:47,306 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookStore
+DEBUG 2020-05-13 23:18:47,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-13 23:18:47,484 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-13 23:18:47,584 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Ogulcan.BookStore.MultiTenancy.Tenant, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Ogulcan.BookStore.Authorization.Users.User, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-13 23:18:47,621 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-05-13 23:18:47,621 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-13 23:18:47,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Users.Dto.CreateUserDto
+DEBUG 2020-05-13 23:18:47,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Users.Dto.UserDto
+DEBUG 2020-05-13 23:18:47,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-13 23:18:47,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-13 23:18:47,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Roles.Dto.PermissionDto
+DEBUG 2020-05-13 23:18:47,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-13 23:18:47,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-13 23:18:47,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Books.Dto.BookListDto
+DEBUG 2020-05-13 23:18:47,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Books.Dto.CreateBookDto
+DEBUG 2020-05-13 23:18:47,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Authors.AuthorDto
+INFO  2020-05-13 23:18:50,389 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-13 23:18:50,757 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ogulc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-13 23:18:50,836 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-13 23:18:50,986 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.HomeController.Index (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:18:53,204 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ogulcan.BookStore.Web.Host.Controllers.HomeController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:18:54,070 [8    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-13 23:18:54,076 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.HomeController.Index (Ogulcan.BookStore.Web.Host) in 867.5718ms
+INFO  2020-05-13 23:18:54,078 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.HomeController.Index (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:18:54,092 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-05-13 23:18:54,095 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3259.8996ms 302 
+INFO  2020-05-13 23:18:54,118 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.1807ms 301 
+INFO  2020-05-13 23:18:54,121 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-13 23:18:54,153 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.2778ms 200 text/html;charset=utf-8
+INFO  2020-05-13 23:18:54,173 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-05-13 23:18:54,175 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-05-13 23:18:54,177 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-05-13 23:18:54,180 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-13 23:18:54,181 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-13 23:18:54,207 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\ogulc\source\repos\Boilerplate.BookStore\aspnet-core\src\Ogulcan.BookStore.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-13 23:18:54,207 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-05-13 23:18:54,207 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-05-13 23:18:54,209 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.7316ms 200 application/javascript
+INFO  2020-05-13 23:18:54,212 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-05-13 23:18:54,214 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\ogulc\source\repos\Boilerplate.BookStore\aspnet-core\src\Ogulcan.BookStore.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-13 23:18:54,215 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.8431ms 200 application/javascript
+INFO  2020-05-13 23:18:54,216 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.6093ms 200 application/javascript
+INFO  2020-05-13 23:18:54,217 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.7946ms 200 application/javascript
+INFO  2020-05-13 23:18:54,218 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.6093ms 200 text/css
+INFO  2020-05-13 23:18:54,454 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-13 23:18:54,459 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:18:54,468 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:18:54,485 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-13 23:18:54,488 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:18:54,516 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-05-13 23:18:54,519 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-05-13 23:18:54,521 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.4911ms 200 image/png
+INFO  2020-05-13 23:18:54,595 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host) in 125.4192ms
+INFO  2020-05-13 23:18:54,596 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:18:54,597 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 144.6587ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:18:54,616 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 130.5951ms 200 application/json;charset=utf-8
+INFO  2020-05-13 23:21:40,885 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2020-05-13 23:21:40,890 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:21:40,892 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:21:40,895 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Controllers.TokenAuthController.Authenticate (Ogulcan.BookStore.Web.Core)'
+INFO  2020-05-13 23:21:40,910 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Models.TokenAuth.AuthenticateResultModel] Authenticate(Ogulcan.BookStore.Models.TokenAuth.AuthenticateModel) on controller Ogulcan.BookStore.Controllers.TokenAuthController (Ogulcan.BookStore.Web.Core).
+INFO  2020-05-13 23:21:41,569 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:21:41,574 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Controllers.TokenAuthController.Authenticate (Ogulcan.BookStore.Web.Core) in 661.9613ms
+INFO  2020-05-13 23:21:41,575 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Controllers.TokenAuthController.Authenticate (Ogulcan.BookStore.Web.Core)'
+INFO  2020-05-13 23:21:41,577 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 693.0568ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:21:41,588 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-13 23:21:41,591 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.0292ms 200 text/html;charset=utf-8
+INFO  2020-05-13 23:21:41,773 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-13 23:21:41,817 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-13 23:21:41,821 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:21:41,824 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:21:41,901 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:21:41,907 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:21:41,913 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:21:41,915 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host) in 7.4403ms
+INFO  2020-05-13 23:21:41,917 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:21:41,918 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 145.5704ms 200 application/json; charset=utf-8
+ERROR 2020-05-13 23:21:42,264 [10   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17005592207446507552", Request ID "80000021-0003-ec00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.AbpSettings' with unique index 'IX_AbpSettings_TenantId_Name_UserId'. The duplicate key value is (<NULL>, Abp.Localization.DefaultLanguageName, 1).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:3f8c03dc-0071-47aa-87c3-42f02cfb9522
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Configuration.SettingStore.CreateAsync(SettingInfo settingInfo)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous(IInvocation invocation)
+   at Abp.Configuration.SettingManager.InsertOrUpdateOrDeleteSettingValueAsync(String name, String value, Nullable`1 tenantId, Nullable`1 userId)
+   at Abp.Configuration.SettingManager.ChangeSettingForUserAsync(UserIdentifier user, String name, String value)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous(IInvocation invocation)
+   at Abp.AspNetCore.Localization.AbpUserRequestCultureProvider.DetermineProviderCultureResult(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2020-05-13 23:21:42,270 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 467.782ms 500 
+INFO  2020-05-13 23:21:51,967 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-13 23:21:51,973 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8766ms 200 text/html;charset=utf-8
+INFO  2020-05-13 23:21:52,069 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-13 23:21:52,072 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:21:52,080 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:21:52,085 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:21:52,093 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:21:52,095 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host) in 8.3442ms
+INFO  2020-05-13 23:21:52,097 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:21:52,099 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.5174ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:21:52,104 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-13 23:21:52,107 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-05-13 23:21:52,109 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:21:52,111 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-05-13 23:21:52,113 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.458ms 200 image/png
+INFO  2020-05-13 23:21:52,125 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.3594ms 200 application/json;charset=utf-8
+INFO  2020-05-13 23:22:07,533 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll  
+INFO  2020-05-13 23:22:07,538 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:22:07,540 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Users.UserAppService.GetAllAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:22:07,549 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Ogulcan.BookStore.Users.Dto.UserDto]] GetAllAsync(Ogulcan.BookStore.Users.Dto.PagedUserResultRequestDto) on controller Ogulcan.BookStore.Users.UserAppService (Ogulcan.BookStore.Application).
+INFO  2020-05-13 23:22:07,896 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:22:07,911 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Users.UserAppService.GetAllAsync (Ogulcan.BookStore.Application) in 360.2133ms
+INFO  2020-05-13 23:22:07,912 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Users.UserAppService.GetAllAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:22:07,914 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 381.3481ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:23:06,728 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Author/Create application/json-patch+json 114
+INFO  2020-05-13 23:23:06,730 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:23:06,732 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:23:06,740 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:23:06,742 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:23:06,754 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Authors.AuthorDto] CreateAsync(Ogulcan.BookStore.Authors.AuthorDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+ERROR 2020-05-13 23:23:07,086 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not set TenantId to 0 for IMustHaveTenant entities!
+Abp.AbpException: Can not set TenantId to 0 for IMustHaveTenant entities!
+   at Abp.EntityFrameworkCore.AbpDbContext.CheckAndSetMustHaveTenantIdProperty(Object entityAsObj)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConceptsForAddedEntity(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Application.Services.AsyncCrudAppService`8.CreateAsync(TCreateInput input)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-13 23:23:07,306 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:23:07,310 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application) in 554.1774ms
+INFO  2020-05-13 23:23:07,312 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:23:07,313 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 586.1228ms 500 application/json; charset=utf-8
+INFO  2020-05-13 23:23:32,847 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Author/Create application/json-patch+json 100
+INFO  2020-05-13 23:23:32,849 [22   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:23:32,851 [22   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:23:32,854 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:23:32,856 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:23:32,862 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Authors.AuthorDto] CreateAsync(Ogulcan.BookStore.Authors.AuthorDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+ERROR 2020-05-13 23:23:32,882 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not set TenantId to 0 for IMustHaveTenant entities!
+Abp.AbpException: Can not set TenantId to 0 for IMustHaveTenant entities!
+   at Abp.EntityFrameworkCore.AbpDbContext.CheckAndSetMustHaveTenantIdProperty(Object entityAsObj)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConceptsForAddedEntity(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Application.Services.AsyncCrudAppService`8.CreateAsync(TCreateInput input)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-13 23:23:32,885 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:23:32,889 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application) in 23.0936ms
+INFO  2020-05-13 23:23:32,890 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:23:32,892 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.8414ms 500 application/json; charset=utf-8
+INFO  2020-05-13 23:23:36,461 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Author/Create application/json-patch+json 100
+INFO  2020-05-13 23:23:36,465 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:23:36,466 [23   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:23:36,468 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:23:36,474 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:23:36,479 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Authors.AuthorDto] CreateAsync(Ogulcan.BookStore.Authors.AuthorDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+ERROR 2020-05-13 23:23:36,494 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not set TenantId to 0 for IMustHaveTenant entities!
+Abp.AbpException: Can not set TenantId to 0 for IMustHaveTenant entities!
+   at Abp.EntityFrameworkCore.AbpDbContext.CheckAndSetMustHaveTenantIdProperty(Object entityAsObj)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConceptsForAddedEntity(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Application.Services.AsyncCrudAppService`8.CreateAsync(TCreateInput input)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-13 23:23:36,496 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:23:36,499 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application) in 18.8725ms
+INFO  2020-05-13 23:23:36,500 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:23:36,501 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.5503ms 500 application/json; charset=utf-8
+INFO  2020-05-13 23:24:01,921 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Author/GetAll?Sorting=1&SkipCount=1&MaxResultCount=1  
+INFO  2020-05-13 23:24:01,924 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:24:01,926 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.GetAllAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:24:01,935 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Ogulcan.BookStore.Authors.AuthorDto]] GetAllAsync(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+INFO  2020-05-13 23:24:02,206 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:24:02,212 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.GetAllAsync (Ogulcan.BookStore.Application) in 273.5921ms
+INFO  2020-05-13 23:24:02,213 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.GetAllAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:24:02,215 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 294.7993ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:24:26,799 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Author/Create application/json-patch+json 97
+INFO  2020-05-13 23:24:26,801 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:24:26,803 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:24:26,806 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:24:26,808 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:24:26,813 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Authors.AuthorDto] CreateAsync(Ogulcan.BookStore.Authors.AuthorDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+ERROR 2020-05-13 23:24:26,840 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not set TenantId to 0 for IMustHaveTenant entities!
+Abp.AbpException: Can not set TenantId to 0 for IMustHaveTenant entities!
+   at Abp.EntityFrameworkCore.AbpDbContext.CheckAndSetMustHaveTenantIdProperty(Object entityAsObj)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConceptsForAddedEntity(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Application.Services.AsyncCrudAppService`8.CreateAsync(TCreateInput input)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-13 23:24:26,843 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:24:26,849 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application) in 31.4641ms
+INFO  2020-05-13 23:24:26,851 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:24:26,853 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.8214ms 500 application/json; charset=utf-8
+INFO  2020-05-13 23:24:52,700 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Author/Create application/json-patch+json 90
+INFO  2020-05-13 23:24:52,702 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:24:52,703 [27   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:24:52,706 [27   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:24:52,707 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:24:52,712 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Authors.AuthorDto] CreateAsync(Ogulcan.BookStore.Authors.AuthorDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+ERROR 2020-05-13 23:24:52,727 [28   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not set TenantId to 0 for IMustHaveTenant entities!
+Abp.AbpException: Can not set TenantId to 0 for IMustHaveTenant entities!
+   at Abp.EntityFrameworkCore.AbpDbContext.CheckAndSetMustHaveTenantIdProperty(Object entityAsObj)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConceptsForAddedEntity(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Application.Services.AsyncCrudAppService`8.CreateAsync(TCreateInput input)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-13 23:24:52,730 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:24:52,735 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application) in 18.3069ms
+INFO  2020-05-13 23:24:52,736 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:24:52,738 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.712ms 500 application/json; charset=utf-8
+INFO  2020-05-13 23:24:59,172 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-13 23:24:59,176 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.9234ms 200 text/html;charset=utf-8
+INFO  2020-05-13 23:24:59,199 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-13 23:24:59,200 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-13 23:24:59,205 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-05-13 23:24:59,206 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-05-13 23:24:59,209 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.4164ms 304 application/javascript
+INFO  2020-05-13 23:24:59,211 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.7594ms 304 application/javascript
+INFO  2020-05-13 23:24:59,275 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-13 23:24:59,278 [30   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:24:59,280 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:24:59,284 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:24:59,291 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:24:59,293 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host) in 7.573ms
+INFO  2020-05-13 23:24:59,294 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:24:59,295 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.7217ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:24:59,304 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-13 23:24:59,307 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-13 23:24:59,314 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-05-13 23:24:59,317 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-05-13 23:24:59,318 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.4742ms 200 image/png
+INFO  2020-05-13 23:24:59,328 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.7701ms 200 application/json;charset=utf-8
+INFO  2020-05-13 23:25:01,615 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-13 23:25:01,619 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1891ms 200 text/html;charset=utf-8
+INFO  2020-05-13 23:25:01,691 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-13 23:25:01,693 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:25:01,698 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:25:01,703 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-13 23:25:01,711 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:25:01,713 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host) in 13.4979ms
+INFO  2020-05-13 23:25:01,714 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:25:01,716 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.5114ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:25:01,723 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.6511ms 200 application/json;charset=utf-8
+INFO  2020-05-13 23:25:18,216 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Author/Create application/json-patch+json 81
+INFO  2020-05-13 23:25:18,218 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-13 23:25:18,219 [28   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-13 23:25:18,221 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:25:18,227 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Ogulcan.BookStore.Authors.AuthorDto] CreateAsync(Ogulcan.BookStore.Authors.AuthorDto) on controller Ogulcan.BookStore.Authors.AuthorAppService (Ogulcan.BookStore.Application).
+ERROR 2020-05-13 23:25:18,249 [29   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not set TenantId to 0 for IMustHaveTenant entities!
+Abp.AbpException: Can not set TenantId to 0 for IMustHaveTenant entities!
+   at Abp.EntityFrameworkCore.AbpDbContext.CheckAndSetMustHaveTenantIdProperty(Object entityAsObj)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConceptsForAddedEntity(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts(EntityEntry entry, Nullable`1 userId, EntityChangeReport changeReport)
+   at Abp.EntityFrameworkCore.AbpDbContext.ApplyAbpConcepts()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Application.Services.AsyncCrudAppService`8.CreateAsync(TCreateInput input)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-13 23:25:18,251 [29   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:25:18,253 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application) in 24.3624ms
+INFO  2020-05-13 23:25:18,255 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Authors.AuthorAppService.CreateAsync (Ogulcan.BookStore.Application)'
+INFO  2020-05-13 23:25:18,256 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.6976ms 500 application/json; charset=utf-8
+DEBUG 2020-05-13 23:43:36,659 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-13 23:43:36,814 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-13 23:43:36,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.Web.Host.Startup.BookStoreWebHostModule, Ogulcan.BookStore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreWebCoreModule, Ogulcan.BookStore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreApplicationModule, Ogulcan.BookStore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.BookStoreCoreModule, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ogulcan.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkModule, Ogulcan.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:36,840 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-13 23:43:36,936 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:43:36,936 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:43:36,936 [1    ] o.Configuration.LanguageManagementConfig - Converted BookStore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:43:36,936 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-13 23:43:37,318 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Ogulcan.BookStore.EntityFrameworkCore.BookStoreDbContext, Ogulcan.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-13 23:43:38,050 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-13 23:43:38,098 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-13 23:43:38,136 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-13 23:43:38,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookStore
+DEBUG 2020-05-13 23:43:38,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-13 23:43:38,341 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-13 23:43:38,435 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Ogulcan.BookStore.MultiTenancy.Tenant, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Ogulcan.BookStore.Authorization.Users.User, Ogulcan.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-13 23:43:38,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-05-13 23:43:38,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-13 23:43:38,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Users.Dto.CreateUserDto
+DEBUG 2020-05-13 23:43:38,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Users.Dto.UserDto
+DEBUG 2020-05-13 23:43:38,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-13 23:43:38,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-13 23:43:38,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Roles.Dto.PermissionDto
+DEBUG 2020-05-13 23:43:38,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-13 23:43:38,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-13 23:43:38,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Books.Dto.BookListDto
+DEBUG 2020-05-13 23:43:38,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Books.Dto.CreateBookDto
+DEBUG 2020-05-13 23:43:38,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Authors.AuthorDto
+DEBUG 2020-05-13 23:43:38,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ogulcan.BookStore.Authors.CreateAuthorDto
+INFO  2020-05-13 23:43:40,284 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-13 23:43:40,609 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ogulc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-13 23:43:40,660 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-13 23:43:40,804 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.HomeController.Index (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:43:43,429 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ogulcan.BookStore.Web.Host.Controllers.HomeController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:43:44,328 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-13 23:43:44,335 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.HomeController.Index (Ogulcan.BookStore.Web.Host) in 901.1051ms
+INFO  2020-05-13 23:43:44,337 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.HomeController.Index (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:43:44,350 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3690.7988ms 302 
+INFO  2020-05-13 23:43:44,354 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-13 23:43:44,400 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.3353ms 200 text/html;charset=utf-8
+INFO  2020-05-13 23:43:44,418 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-13 23:43:44,420 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-13 23:43:44,426 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-05-13 23:43:44,427 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-05-13 23:43:44,429 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.8598ms 304 application/javascript
+INFO  2020-05-13 23:43:44,431 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.8598ms 304 application/javascript
+INFO  2020-05-13 23:43:44,525 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-13 23:43:44,529 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:43:44,535 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController (Ogulcan.BookStore.Web.Host).
+INFO  2020-05-13 23:43:44,554 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-13 23:43:44,555 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-13 23:43:44,637 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host) in 100.6176ms
+INFO  2020-05-13 23:43:44,639 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ogulcan.BookStore.Web.Host.Controllers.AntiForgeryController.SetCookie (Ogulcan.BookStore.Web.Host)'
+INFO  2020-05-13 23:43:44,640 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.5175ms 200 application/json; charset=utf-8
+INFO  2020-05-13 23:43:44,662 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 107.415ms 200 application/json;charset=utf-8

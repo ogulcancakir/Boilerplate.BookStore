@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Ogulcan.BookStore.Migrations
 {
-    public partial class Book_Author_entities_created : Migration
+    public partial class somechanges : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,7 +11,8 @@ namespace Ogulcan.BookStore.Migrations
                 name: "AppAuthors",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(nullable: false),
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     LastModificationTime = table.Column<DateTime>(nullable: true),
@@ -20,7 +21,7 @@ namespace Ogulcan.BookStore.Migrations
                     DeleterUserId = table.Column<long>(nullable: true),
                     DeletionTime = table.Column<DateTime>(nullable: true),
                     AuthorName = table.Column<string>(maxLength: 256, nullable: true),
-                    BornIn = table.Column<DateTime>(nullable: false),
+                    BornIn = table.Column<DateTime>(nullable: true),
                     Bio = table.Column<string>(maxLength: 65536, nullable: true),
                     TenantId = table.Column<int>(nullable: false)
                 },
@@ -47,7 +48,7 @@ namespace Ogulcan.BookStore.Migrations
                     Published = table.Column<DateTime>(nullable: true),
                     BookImage = table.Column<byte[]>(nullable: true),
                     IsActive = table.Column<bool>(nullable: false),
-                    AuthorId = table.Column<Guid>(nullable: true)
+                    AuthorId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
